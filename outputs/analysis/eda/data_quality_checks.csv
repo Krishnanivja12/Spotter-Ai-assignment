@@ -1,0 +1,6 @@
+,train,validation
+duplicate_load_id,0,0.0
+invalid_date_after_parsing,0,0.0
+non_positive_distance,0,0.0
+negative_weight,292,145.0
+non_positive_posted_rate,0,

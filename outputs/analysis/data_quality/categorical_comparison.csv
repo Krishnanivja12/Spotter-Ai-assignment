@@ -1,0 +1,4 @@
+,train_unique,validation_unique,validation_only_values
+pickup,64,72,Allentown; Charlotte; Chicago; Jackson; Knoxville; Laredo; Norfolk; San Diego
+delivery,64,72,Allentown; Charlotte; Chicago; Jackson; Knoxville; Laredo; Norfolk; San Diego
+equipment,3,3,

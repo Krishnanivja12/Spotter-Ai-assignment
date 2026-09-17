@@ -1,0 +1,25 @@
+{
+  "model": "PositiveRidgeRegressor",
+  "ridge_alpha": 10.0,
+  "prediction_floor": 0.01,
+  "target": "posted_rate",
+  "training_rows": 48000,
+  "training_date_min": "2025-01-01",
+  "training_date_max": "2025-10-31",
+  "artifact": "artifacts\\final_ridge_pipeline.joblib",
+  "validation_inference": {
+    "rows": 12000,
+    "minimum": 0.01,
+    "maximum": 6345.269719126976,
+    "non_finite": 0,
+    "non_positive": 0
+  },
+  "december_inference": {
+    "rows": 31,
+    "minimum": 902.9076266346474,
+    "maximum": 967.8143422899425,
+    "non_finite": 0,
+    "non_positive": 0
+  },
+  "december_adapter_policy": "Fill missing city coordinates from development-feature city medians; leave unavailable market_index and quote_signal as missing for the pipeline imputer."
+}

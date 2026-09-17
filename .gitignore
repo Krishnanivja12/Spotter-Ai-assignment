@@ -1,1 +1,43 @@
-venv
+# Python virtual environment
+venv/
+.venv/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Tooling and editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python packaging artifacts
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Generated benchmark or temporary output files
+*.tmp
+*.bak
+*.swp
+
+# Keep required project artifacts tracked
+# Do not ignore validation_predictions.csv, scorer_results/, outputs/, reports/, or data inputs.
+
+md file
+speech.md
+

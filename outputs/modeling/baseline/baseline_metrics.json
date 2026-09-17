@@ -1,0 +1,12 @@
+{
+  "model": "Ridge regression baseline",
+  "ridge_alpha": 10.0,
+  "fit_rows": 38477,
+  "holdout_rows": 9523,
+  "mae": 149.69543291109278,
+  "rmse": 643.5418239452465,
+  "r2": 0.8221660489448248,
+  "minimum_prediction": -181.79834196702268,
+  "maximum_prediction": 6416.9780668234,
+  "non_positive_prediction_count": 11
+}

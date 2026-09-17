@@ -1,0 +1,9 @@
+,count
+row_count,48000
+exact_duplicate_rows,0
+duplicate_load_ids,0
+missing_load_ids,0
+invalid_dates_after_parsing,0
+negative_weights,292
+zero_weights,0
+non_positive_posted_rates,0

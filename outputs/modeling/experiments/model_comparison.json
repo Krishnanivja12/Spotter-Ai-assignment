@@ -1,0 +1,54 @@
+[
+  {
+    "model": "ridge",
+    "description": "Regularized linear benchmark",
+    "training_seconds": 0.3669178999844007,
+    "fit_mae": 133.23327231524806,
+    "fit_rmse": 585.0978421581659,
+    "fit_r2": 0.8429638350472441,
+    "holdout_mae": 149.63252526070224,
+    "holdout_rmse": 643.5335599365925,
+    "holdout_r2": 0.8221706162062514,
+    "rmse_generalization_gap": 58.43571777842658,
+    "non_positive_holdout_predictions": 11
+  },
+  {
+    "model": "random_forest",
+    "description": "Bagged nonlinear trees",
+    "training_seconds": 36.35129150003195,
+    "fit_mae": 71.58547137029818,
+    "fit_rmse": 386.48888010103263,
+    "fit_r2": 0.9314801041852068,
+    "holdout_mae": 160.26855276318335,
+    "holdout_rmse": 655.9234991860221,
+    "holdout_r2": 0.815257207485707,
+    "rmse_generalization_gap": 269.4346190849895,
+    "non_positive_holdout_predictions": 0
+  },
+  {
+    "model": "extra_trees",
+    "description": "Highly randomized nonlinear trees",
+    "training_seconds": 71.50287929998012,
+    "fit_mae": 55.74055956971697,
+    "fit_rmse": 334.3871503875664,
+    "fit_r2": 0.9487089194603876,
+    "holdout_mae": 156.29749598200843,
+    "holdout_rmse": 661.2838752277778,
+    "holdout_r2": 0.8122253377746407,
+    "rmse_generalization_gap": 326.8967248402114,
+    "non_positive_holdout_predictions": 0
+  },
+  {
+    "model": "hist_gradient_boosting",
+    "description": "Boosted nonlinear trees",
+    "training_seconds": 6.6796011999831535,
+    "fit_mae": 111.14657472682428,
+    "fit_rmse": 459.95081214367724,
+    "fit_r2": 0.902956719809009,
+    "holdout_mae": 166.6080310855611,
+    "holdout_rmse": 652.895965632712,
+    "holdout_r2": 0.8169586991809403,
+    "rmse_generalization_gap": 192.94515348903474,
+    "non_positive_holdout_predictions": 0
+  }
+]
